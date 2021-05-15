@@ -1,0 +1,83 @@
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .course img {
+        width: 212px;
+    }
+    .start {
+        font-size: 10px;
+    }
+    .seat{
+        font-size: 14px;
+    }
+    footer p {
+        font-size: 11px;
+    }
+    footer h5 {
+        font-size: 17px;
+    }
+    .client-text {
+        float:unset;
+        padding-right:0px;
+        text-align: center;
+        padding-top: 20px;
+    }
+    .client-img img {
+        margin-left: 0px;
+    }
+    .client-img{
+        text-align: center;
+    }
+    .banner-text h1 {
+        font-size: 30px;
+    }
+    
+    
+  }
+  
+  
+  
+  
+  /* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+  
+  @media (min-width: 320px) and (max-width: 480px) {
+    
+    .banner-text h1 {
+        font-size: 25px;
+    }
+    .course img {
+        width: 322px;
+    }
+    .client-img{
+        text-align: center;
+    }
+    .client-img img {
+        margin-left:0px;
+    }
+    .client-text {
+        float:none;
+        padding-right:0px;
+        padding-top: 20px;
+    }
+    footer{
+        height: auto;
+    }
+    footer .row{
+        flex-wrap: unset;
+    }
+    .copy-right {
+     font-size: 6px;
+    }
+    footer p {
+        font-size: 8px;
+    }
+    footer h5 {
+        font-size: 10px;
+    }
+  }
